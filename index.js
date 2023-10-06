@@ -12,7 +12,6 @@ function initMap() {
     mapTypeId: "terrain",
   });
 
-
   heatmap = new google.maps.visualization.HeatmapLayer({
     data: getPoints(),
     map: map,
